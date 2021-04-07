@@ -1,12 +1,11 @@
 import React from "react";
+import heart from "../Assets/heart.png";
+
 const Landing = () => {
   return (
     <main>
       <div className="landing-content">
-        <img
-          src="http://lavelo-react.wpocean.com/static/media/1.5434f27c.png"
-          alt="love"
-        />
+        <img src={heart} alt="love" />
         <div className="text-content">
           <h4>WE'RE GETTING MARRIED</h4>
           <h2>Save Our Date</h2>

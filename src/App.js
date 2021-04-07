@@ -7,6 +7,7 @@ import Landing from "./Components/Landing";
 import WelcomeArea from "./Components/WelcomeArea";
 import Gallery from "./Components/Gallery";
 import ThankYou from "./Components/ThankYou";
+import YoutubePlayer from "./Components/YoutubePlayer";
 
 const App = () => {
   const [showTimer, setshowTimer] = useState(false);
@@ -32,9 +33,12 @@ const App = () => {
     <div className="App">
       <Header />
       <Landing />
-      {showTimer && (
+      {showTimer ? (
         <CountDown expiryTimestamp={timeValue} expiryFunction={onExpire} />
+      ) : (
+        <YoutubePlayer />
       )}
+
       <Couple />
       <WelcomeArea />
       <Event />
