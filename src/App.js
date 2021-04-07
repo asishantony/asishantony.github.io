@@ -40,7 +40,7 @@ const App = () => {
       )}
 
       <Couple />
-      <WelcomeArea />
+      {/* <WelcomeArea /> */}
       <Event />
       <Gallery />
       <ThankYou />
