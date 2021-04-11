@@ -704,7 +704,7 @@ main .text-content h2 {
 .thank-you {
   height: 50vh;
   background-color: var(--clr-primary-font);
-  background-image: url(http://lavelo-react.wpocean.com/static/media/1.412dab63.jpg);
+  background-image: url(Assets/thank.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

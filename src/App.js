@@ -14,7 +14,7 @@ const App = () => {
   const [timeValue, setTimeValue] = useState("");
   useEffect(() => {
     var time = new Date();
-    var date2 = new Date("May 03, 2021 10:30:00");
+    var date2 = new Date("April 26, 2021 10:30:00");
     var seconds = Math.abs(time - date2) / 1000;
     if (date2 < time) {
       setshowTimer(false);
@@ -42,7 +42,7 @@ const App = () => {
       <Couple />
       {/* <WelcomeArea /> */}
       <Event />
-      <Gallery />
+      {/* <Gallery /> */}
       <ThankYou />
     </div>
   );

@@ -12,7 +12,7 @@ const Event = () => {
     <section className="section-ceremony">
       <h2 className="ceremony-heading">When & Where</h2>
       <div className="ceremony-wrapper">
-        <Ceremony
+        {/* <Ceremony
           customClass="ceremony"
           heading="Betrothal Ceremony"
           datetime="Saturday, 24 April 2021, 11.30 AM"
@@ -20,9 +20,9 @@ const Event = () => {
           location={sebastiansLocation}
           description=""
           image={null}
-        />
+        /> */}
         <Ceremony
-          customClass="flip-ceremony"
+          customClass="ceremony"
           heading="Wedding Ceremony"
           datetime="Monday, 03 May 2021, 10.30 AM"
           address="Holy Infant Mary Church, Madakkampoyil, Kannur District, Kerala"
@@ -30,7 +30,7 @@ const Event = () => {
           description="The Wedding will be solemnised by Rev.Fr. Ashlin Kalathil"
         />
         <Ceremony
-          customClass="ceremony"
+          customClass="flip-ceremony"
           heading="Wedding Reception"
           datetime="Monday, 03 May 2021, 01.30 PM"
           address="Kalathil House, Madakkampoyil,Peringome (PO), Kannur District, Kerala"
