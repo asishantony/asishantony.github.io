@@ -5,7 +5,6 @@ import Event from "./Components/Event";
 import Header from "./Components/Header";
 import Landing from "./Components/Landing";
 // import WelcomeArea from "./Components/WelcomeArea";
-import Gallery from "./Components/Gallery";
 import ThankYou from "./Components/ThankYou";
 import YoutubePlayer from "./Components/YoutubePlayer";
 
