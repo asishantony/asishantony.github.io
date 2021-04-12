@@ -143,7 +143,7 @@ main::after {
   right: 0;
   z-index: 1;
   width: 100%;
-  background: url(Assets/hero.JPG);
+  background: url(Assets/hero.jpg);
   opacity: 0.5;
   background-position: center;
   background-repeat: no-repeat;
