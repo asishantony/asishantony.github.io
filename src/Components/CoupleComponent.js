@@ -1,7 +1,7 @@
 import React from "react";
 
 const CoupleComponent = (props) => {
-  const { type, img, name, detail } = props;
+  const { type, img, name } = props;
   return (
     <div className={type}>
       <img className="tile-image" src={img} alt={name} />
