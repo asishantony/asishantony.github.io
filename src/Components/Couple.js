@@ -12,9 +12,7 @@ const Couple = () => {
             type="bride"
             img={bibi}
             name="Alphonsa Kurian"
-            detail=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod
-            rerum fugiat nam cumque itaque aperiam est sunt iste nisi facilis animi,
-            perspiciatis, voluptate dolorum sequi modi! Ullam, quae nesciunt?"
+            detail=" Working as Finance and Administrative Business Analyst at IBM, Bangalore"
           />
 
           <div className="tile-seperator">
@@ -27,9 +25,7 @@ const Couple = () => {
             type="groom"
             img={asish}
             name="Asish K Antony"
-            detail="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod
-            rerum fugiat nam cumque itaque aperiam est sunt iste nisi facilis animi,
-            perspiciatis, voluptate dolorum sequi modi! Ullam, quae nesciunt?"
+            detail="Working as Web Developer at CodePoint Software Pvt Ltd, Kochi, Studied B.Tech in Electronics and communications Engineering from College of Engineering Trikaripur."
           />
         </div>
       </div>
