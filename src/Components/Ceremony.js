@@ -26,7 +26,7 @@ const Ceremony = (props) => {
         <span>{datetime}</span>
         <span>{address}</span>
         <p>{description}</p>
-        <a href={location} rel="noreferrer" target="_blank">
+        <a href={location} rel="noreferrer" target="_blank" className="btn">
           See Location
         </a>
       </div>

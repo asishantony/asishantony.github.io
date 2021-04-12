@@ -24,7 +24,7 @@ const Event = () => {
         <Ceremony
           customClass="ceremony"
           heading="Wedding Ceremony"
-          datetime="Monday, 03 May 2021, 10.30 AM"
+          datetime="Monday, 26 April 2021, 10.30 AM"
           address="Holy Infant Mary Church, Madakkampoyil, Kannur District, Kerala"
           location={infantMaryLocations}
           description="The Wedding will be solemnised by Rev.Fr. Ashlin Kalathil"
@@ -32,7 +32,7 @@ const Event = () => {
         <Ceremony
           customClass="flip-ceremony"
           heading="Wedding Reception"
-          datetime="Monday, 03 May 2021, 01.30 PM"
+          datetime="Monday, 26 April 2021, 01.30 PM"
           address="Kalathil House, Madakkampoyil,Peringome (PO), Kannur District, Kerala"
           location={homeLocation}
           description=""

@@ -21,6 +21,7 @@
   --fw-extra-light: 200;
   --fw-light: 300;
   --fw-regular: 400;
+  --fw-bold: 600;
   --line-height: 1.5;
   --letter-spacing: 0.03rem;
 }
@@ -530,6 +531,7 @@ main .text-content h2 {
   display: block;
   font-family: var(--font-primary);
   font-size: 13px;
+  font-weight: var(--fw-bold);
 }
 
 .section-ceremony p {
@@ -545,6 +547,15 @@ main .text-content h2 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  background-color: #008b05; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
 }
 
 .flip-ceremony {
@@ -616,6 +627,7 @@ main .text-content h2 {
   display: block;
   font-family: var(--font-primary);
   font-size: 13px;
+  font-weight: var(--fw-bold);
 }
 
 .flip-ceremony p {
@@ -625,9 +637,18 @@ main .text-content h2 {
 }
 
 .flip-ceremony a {
-  font-family: var(--font-primary);
+  /* font-family: var(--font-primary);
   font-size: 13px;
-  color: var(--clr-secondary-accent);
+  color: var(--clr-secondary-accent); */
+  background-color: #008b05; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
 }
 
 .section-gallery {
@@ -822,6 +843,16 @@ label:hover {
 }
 .upload-title {
   text-align: center;
+}
+.youtube-player {
+  padding: 100px 371px;
+  min-height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 @media screen and (max-width: 600px) {
   main .landing-content img {
