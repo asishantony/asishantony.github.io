@@ -145,7 +145,7 @@ main::after {
   width: 100%;
   background: url(Assets/hero.jpg);
   opacity: 0.5;
-  background-position: center;
+  background-position: 75%;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
