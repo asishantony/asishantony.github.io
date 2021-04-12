@@ -25,7 +25,7 @@ const Couple = () => {
             type="groom"
             img={asish}
             name="Asish K Antony"
-            detail="Working as Web Developer at CodePoint Software Pvt Ltd, Kochi, Studied B.Tech in Electronics and communications Engineering from College of Engineering Trikaripur."
+            detail="Working as Web Developer at CodePoint Software Pvt Ltd, Kochi"
           />
         </div>
       </div>
