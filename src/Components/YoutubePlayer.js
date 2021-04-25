@@ -5,7 +5,7 @@ function YoutubePlayer() {
   return (
     <div className="youtube-player">
       <ReactPlayer
-        url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+        url="https://www.youtube.com/watch?v=o5NRobXvsCY"
         playing="true"
       />
     </div>

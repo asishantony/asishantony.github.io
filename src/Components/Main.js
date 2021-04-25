@@ -17,7 +17,8 @@ const Main = () => {
 
   useEffect(() => {
     var time = new Date();
-    var date2 = new Date("April 26, 2021 10:30:00");
+    // var date2 = new Date("April 26, 2021 10:30:00");
+    var date2 = new Date("April 25, 2021 11:12:00");
     var seconds = Math.abs(time - date2) / 1000;
     if (date2 < time) {
       setshowTimer(false);
